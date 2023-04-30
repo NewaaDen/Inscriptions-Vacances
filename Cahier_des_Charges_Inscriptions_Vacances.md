@@ -17,6 +17,39 @@ Actuellement, ces inscriptions se font à la main sur des feuilles dans un class
 
 ## Fonctionnalités nécessaires
 
+- Se connecter
+- créer un utilisateur permanent
+- créer un utilisateur stagiaire et le lier à des vacances en particulier
+- créer une période de vacance qui contient les infos suivantes :
+  - Une saison
+  - Un nom
+  - une couleur pour l'identifier facilement
+  - Des dates début / fin
+  - Des groupes d'activité (8-12, collégiens, Stage, etc.) + une couleur pour chaque
+  - Des anims tempo
+- Créer une fiche jeune qui contient :
+  - Un nom / prénom / prénom d'usage.
+  - Une date d'anniv
+  - Le contact tel d'un/des parent(s)
+  - Le contact du jeune (opt)
+  - un mail de contact
+  - Un champs de remarques
+  - son état d'adhésion qui reset chaque saison
+- Créer une activité qui contient :
+  - Un groupe d'activité
+  - une date
+  - des horaires
+  - un nom
+  - un nombre de places
+  - la possibilité d'ajouter un PAF
+  - la possibilité d'ajouter une autorisation de sortie avec le lieu
+- Inscrire un jeune à une activité et suivre les documents
+- Inscrire un jeune sur une liste d'attente
+- Editer les autorisations de sorties personnalisées
+- Visualiser les participations à une activité et l'imprimer
+- Visualiser les activités d'un participant et l'imprimer
+- Visualiser les places disponibles dans une activité, les docs manquants, etc.
+
 ## Structure
 
 Liste des pages nécessaires :
@@ -75,7 +108,6 @@ Liste des pages nécessaires :
 - **_Admin_**
   - Création d'utilisateur·ices **permanents**
   - Accès complet
-    
 - **_Permanent·e_**
   - Création d'utilisateur·ices **Stagiaire** ou **invité**
   - Création de _Vacance_
@@ -83,12 +115,10 @@ Liste des pages nécessaires :
   - Création de _Jeune_
   - Inscriptions activité
   - Accès à toutes les infos (tous les _Jeunes_, toutes les _vacances_ et _activités_)
-  - Impression des fiches activités, fiches jeunes, etc.  
-    
+  - Impression des fiches activités, fiches jeunes, etc.
 - **_Stagiaire_** ou **_invité_** (dépend d'une période _Vacance_)
 - Accès aux infos pour une période de vacance uniquement (Activités, Jeunes, impression)
 - Impression des fiches activités, fiches jeunes, etc. Pour une période de vacance
-  
 - **_Visiteur·se_** (Non log)
 - Uniquement page d'accueil
   - Vu sur le programme
@@ -115,8 +145,22 @@ voir affiches :
 ![affiche expo au fil de l'eau](https://www.mjc-igny.org/wp-content/uploads/2023/02/Affiche-Au-fil-de-leau-1-1170x550.png)
 ![affiche stage éveil musical](https://www.mjc-igny.org/wp-content/uploads/2023/02/affiche-1170x550.jpg)
 
-## Maquette
+## Maquettes
 
-A venir
+### Premières maquettes mobiles (WIP)
+
+![Accueil](https://zupimages.net/up/23/17/h94d.png)
+![Connexion](https://zupimages.net/up/23/17/cvgs.png)
+![Affichage activités](https://zupimages.net/up/23/17/9n4z.png)
+![Affichage participant·es](https://zupimages.net/up/23/17/famu.png)
+![Affichage vacances](https://zupimages.net/up/23/17/53cb.png)
+![Ajoute Vacances, activité"s et jeune](https://zupimages.net/up/23/17/qz2h.png)
+![Ajout et liste users](https://zupimages.net/up/23/17/whb4.png)
 
 ## Idées de fonctionnalités futures (non essentielles)
+
+- Envoyer SMS
+- Envoyer mail
+- dupliquer activité
+- export statistiques
+- Mode planning ?
