@@ -117,7 +117,7 @@ Liste des pages nécessaires :
   - Accès à toutes les infos (tous les _Jeunes_, toutes les _vacances_ et _activités_)
   - Impression des fiches activités, fiches jeunes, etc.
 - **_Stagiaire_** ou **_invité_** (dépend d'une période _Vacance_)
-- Accès aux infos pour une période de vacance uniquement (Activités, Jeunes, impression)
+- Accès aux infos pour une période de vacance uniquement (Activités, Jeunes, impression) - **NON PRIORITAIRE**
 - Impression des fiches activités, fiches jeunes, etc. Pour une période de vacance
 - **_Visiteur·se_** (Non log)
 - Uniquement page d'accueil
@@ -156,6 +156,10 @@ voir affiches :
 ![Affichage vacances](https://zupimages.net/up/23/17/53cb.png)
 ![Ajoute Vacances, activité"s et jeune](https://zupimages.net/up/23/17/qz2h.png)
 ![Ajout et liste users](https://zupimages.net/up/23/17/whb4.png)
+
+### Maquette mobiles
+
+[Maquette mobile pdf](https://newaa.tiiny.site/)
 
 ## Idées de fonctionnalités futures (non essentielles)
 
