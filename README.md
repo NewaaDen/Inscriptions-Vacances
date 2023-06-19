@@ -5,7 +5,7 @@ Projet de formation.
 ## Avancement du projet
 
 - Cahier des charges ![](https://geps.dev/progress/95)
-- Maquettage ![](https://geps.dev/progress/60)
+- Maquettage ![](https://geps.dev/progress/70)
 - ...
 
 ## Description du projet
